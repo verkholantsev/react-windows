@@ -1,0 +1,67 @@
+.root {
+  position: absolute;
+}
+
+.nBorder,
+.sBorder,
+.middleArea {
+  display: flex;
+  align-items: stretch;
+}
+
+.nwCorner,
+.neCorner,
+.swCorner,
+.seCorner {
+  background-color: black;
+  flex-basis: 2px;
+  flex-shrink: 0;
+  height: 2px;
+}
+
+.nwCorner {
+  cursor: nwse-resize;
+}
+.neCorner {
+  cursor: nesw-resize;
+}
+.swCorner {
+  cursor: nesw-resize;
+}
+.seCorner {
+  cursor: nwse-resize;
+}
+
+.nBar,
+.sBar {
+  background-color: black;
+  flex-grow: 1;
+  flex-shrink: 0;
+  height: 2px;
+}
+
+.nBar {
+  cursor: ns-resize;
+}
+.sBar {
+  cursor: ns-resize;
+}
+
+.wBar,
+.eBar {
+  background-color: black;
+  flex-basis: 2px;
+  flex-shrink: 0;
+}
+
+.wBar {
+  cursor: ew-resize;
+}
+.eBar {
+  cursor: ew-resize;
+}
+
+.innerContent {
+  flex-grow: 1;
+  overflow: hidden;
+}

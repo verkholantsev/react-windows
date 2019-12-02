@@ -1,0 +1,7 @@
+.root {
+  border: 1px dashed red;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
