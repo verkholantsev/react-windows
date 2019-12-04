@@ -1,5 +1,12 @@
 .root {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.middleArea {
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .nBorder,
